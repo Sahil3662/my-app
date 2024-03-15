@@ -1,14 +1,13 @@
-const masterData = [{
+const masterData = [
+  // 20240215132248
+// https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.05650&lng=73.06560&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
 
-}]
-
-const master = [
 {
   "statusCode": 0,
   "data": {
     "statusMessage": "done successfully",
     "pageOffset": {
-      "nextOffset": "COVCELQ4KICAlKqNrvqPHDCnEzgB",
+      "nextOffset": "COVCELQ4KICAqKfdmJ2jDjCnEzgC",
       "widgetOffset": {
         "NewListingView_category_bar_chicletranking_TwoRows": "",
         "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
@@ -65,6 +64,240 @@ const master = [
             "imageGridCards": {
               "info": [
                 {
+                  "id": "750582",
+                  "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83645?collection_id=83645&tags=layout_CCS_NorthIndian&type=rcv2",
+                    "text": "North Indian",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for north indian",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750592",
+                  "imageId": "v1675667625/PC_Creative%20refresh/Biryani_2.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83649?collection_id=83649&searchQuery=biryani&tags=layout_CCS_Biryani&type=rcv2",
+                    "text": "Biryani",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for biryani",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83649&tags=layout_CCS_Biryani&searchQuery=biryani",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "762797",
+                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83637?collection_id=83637&tags=layout_CCS_Burger&type=rcv2",
+                    "text": "Burgers",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for burger",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750588",
+                  "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
+                    "text": "Chinese",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for chinese",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750597",
+                  "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
+                    "text": "Ice Cream",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for icecream",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750223",
+                  "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
+                    "text": "Rolls",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for roll",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "749874",
+                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
+                    "text": "Cakes",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for cakes",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750580",
+                  "imageId": "v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83644?collection_id=83644&tags=layout_CCS_Pizza&type=rcv2",
+                    "text": "pizzas",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for pizza",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83644&tags=layout_CCS_Pizza",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750584",
+                  "imageId": "v1675667626/PC_Creative%20refresh/South_Indian_4.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83646?collection_id=83646&tags=layout_CCS_SouthIndian&type=rcv2",
+                    "text": "South Indian",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for south indian",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83646&tags=layout_CCS_SouthIndian",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750249",
+                  "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Shawarma.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80403?collection_id=80403&tags=layout_Shawarma_Contextual&type=rcv2",
+                    "text": "Shawarma",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for shawarma",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=80403&tags=layout_Shawarma_Contextual",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750239",
+                  "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Shakes.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83674?collection_id=83674&tags=layout_CCS_Shakes&type=rcv2",
+                    "text": "Shake",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for shakes",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83674&tags=layout_CCS_Shakes",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "749879",
+                  "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Chole_Bature.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80383?collection_id=80383&tags=layout_CCS_CholeBhature&type=rcv2",
+                    "text": "Chole Bhature",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for chhole bhatoore",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=80383&tags=layout_CCS_CholeBhature",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750203",
+                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
+                    "text": "Paratha",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for paratha",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80476",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
                   "id": "750644",
                   "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png",
                   "action": {
@@ -101,307 +334,37 @@ const master = [
                   }
                 },
                 {
-                  "id": "750235",
-                  "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich.png",
+                  "id": "750572",
+                  "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Pure_Veg.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/83667?collection_id=83667&tags=layout_CCS_Sandwiches&type=rcv2",
-                    "text": "Sandwich",
+                    "link": "https://www.swiggy.com/collections/80439?collection_id=80439&tags=layout_CCS_PureVeg&type=rcv2",
+                    "text": "Pure Veg",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurants curated for sandwich",
+                    "altText": "restaurants curated for veg",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=83667&tags=layout_CCS_Sandwiches",
+                  "entityId": "swiggy://collectionV2?collection_id=80439&tags=layout_CCS_PureVeg",
                   "frequencyCapping": {
                     
                   }
                 },
                 {
-                  "id": "749879",
-                  "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Chole_Bature.png",
+                  "id": "749774",
+                  "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80383?collection_id=80383&tags=layout_CCS_CholeBhature&type=rcv2",
-                    "text": "Chole Bhature",
+                    "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                    "text": "Noodles",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurant curated for chhole bhatoore",
+                    "altText": "restaurant curated for noodles",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=80383&tags=layout_CCS_CholeBhature",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750562",
-                  "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80427?collection_id=80427&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
-                    "text": "Vada",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for vada",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80427",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "749806",
-                  "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Appam.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80353?collection_id=80353&tags=layout_BAU_Contextual%2Cappam%2Clayout_ux4&type=rcv2",
-                    "text": "Appam",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for appam",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80353",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750237",
-                  "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Poori.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80378?collection_id=80378&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-                    "text": "Poori",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for poori",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80378",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750203",
-                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
-                    "text": "Paratha",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for paratha",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80476",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750640",
-                  "imageId": "v1674029847/PC_Creative%20refresh/3D_bau/banners_new/Kachori.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80450?collection_id=80450&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
-                    "text": "Kachori",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for kachori",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80450",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750231",
-                  "imageId": "v1674029857/PC_Creative%20refresh/3D_bau/banners_new/Poha.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80374?collection_id=80374&tags=layout_CCS_Poha&type=rcv2",
-                    "text": "Poha",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for poha",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80374&tags=layout_CCS_Poha",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "749789",
-                  "imageId": "v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Omelette.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80468?collection_id=80468&tags=layout_BAU_Contextual%2Comelette&type=rcv2",
-                    "text": "Omelette",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for omelette",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80468",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750123",
-                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Dhokla.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80423?collection_id=80423&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
-                    "text": "Dhokla",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for dhokla",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80423",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "749874",
-                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
-                    "text": "Cakes",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for cakes",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750217",
-                  "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pav_Bhaji.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80364?collection_id=80364&tags=layout_PavBhaji_Contextual&type=rcv2",
-                    "text": "Pav Bhaji",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for pav bhaji",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80364&tags=layout_PavBhaji_Contextual",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750544",
-                  "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Upma.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80412?collection_id=80412&tags=layout_BAU_Contextual%2Cupma&type=rcv2",
-                    "text": "Upma",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for upma",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80412",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "749864",
-                  "imageId": "v1674029843/PC_Creative%20refresh/3D_bau/banners_new/Bonda.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80365?collection_id=80365&tags=layout_BAU_Contextual%2Cbonda%2Clayout_ux4&type=rcv2",
-                    "text": "Bonda",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for bonda",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80365",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750233",
-                  "imageId": "v1674029847/PC_Creative%20refresh/3D_bau/banners_new/Pongal.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80376?collection_id=80376&tags=layout_BAU_Contextual%2Cpongal&type=rcv2",
-                    "text": "Pongal",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for pongal",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80376",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750599",
-                  "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Coffee.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83908?collection_id=83908&tags=layout_CCS_Coffee&type=rcv2",
-                    "text": "Coffee",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for coffee",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83908&tags=layout_CCS_Coffee",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750605",
-                  "imageId": "rng/md/carousel/production/cbb85a3c1684891105294d11f8359996",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80494?collection_id=80494&tags=layout_CCS_Tea&type=rcv2",
-                    "text": "Tea",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for tea",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80494&tags=layout_CCS_Tea",
+                  "entityId": "80464",
                   "frequencyCapping": {
                     
                   }
@@ -420,6 +383,42 @@ const master = [
                     "altTextCta": "open"
                   },
                   "entityId": "80456",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750207",
+                  "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
+                    "text": "Pasta",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for pasta",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80480",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750562",
+                  "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80427?collection_id=80427&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
+                    "text": "Vada",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for vada",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80427",
                   "frequencyCapping": {
                     
                   }
@@ -443,6 +442,240 @@ const master = [
               "infoWithStyle": {
                 "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.ImageInfoLayoutCard",
                 "info": [
+                  {
+                    "id": "750582",
+                    "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83645?collection_id=83645&tags=layout_CCS_NorthIndian&type=rcv2",
+                      "text": "North Indian",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for north indian",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750592",
+                    "imageId": "v1675667625/PC_Creative%20refresh/Biryani_2.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83649?collection_id=83649&searchQuery=biryani&tags=layout_CCS_Biryani&type=rcv2",
+                      "text": "Biryani",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for biryani",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83649&tags=layout_CCS_Biryani&searchQuery=biryani",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "762797",
+                    "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83637?collection_id=83637&tags=layout_CCS_Burger&type=rcv2",
+                      "text": "Burgers",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for burger",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750588",
+                    "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
+                      "text": "Chinese",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for chinese",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750597",
+                    "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
+                      "text": "Ice Cream",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for icecream",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750223",
+                    "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
+                      "text": "Rolls",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for roll",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "749874",
+                    "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
+                      "text": "Cakes",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for cakes",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750580",
+                    "imageId": "v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83644?collection_id=83644&tags=layout_CCS_Pizza&type=rcv2",
+                      "text": "pizzas",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for pizza",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83644&tags=layout_CCS_Pizza",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750584",
+                    "imageId": "v1675667626/PC_Creative%20refresh/South_Indian_4.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83646?collection_id=83646&tags=layout_CCS_SouthIndian&type=rcv2",
+                      "text": "South Indian",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for south indian",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83646&tags=layout_CCS_SouthIndian",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750249",
+                    "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Shawarma.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80403?collection_id=80403&tags=layout_Shawarma_Contextual&type=rcv2",
+                      "text": "Shawarma",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for shawarma",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=80403&tags=layout_Shawarma_Contextual",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750239",
+                    "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Shakes.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83674?collection_id=83674&tags=layout_CCS_Shakes&type=rcv2",
+                      "text": "Shake",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for shakes",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83674&tags=layout_CCS_Shakes",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "749879",
+                    "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Chole_Bature.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80383?collection_id=80383&tags=layout_CCS_CholeBhature&type=rcv2",
+                      "text": "Chole Bhature",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for chhole bhatoore",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=80383&tags=layout_CCS_CholeBhature",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750203",
+                    "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
+                      "text": "Paratha",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for paratha",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "80476",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
                   {
                     "id": "750644",
                     "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png",
@@ -480,307 +713,37 @@ const master = [
                     }
                   },
                   {
-                    "id": "750235",
-                    "imageId": "v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich.png",
+                    "id": "750572",
+                    "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Pure_Veg.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/83667?collection_id=83667&tags=layout_CCS_Sandwiches&type=rcv2",
-                      "text": "Sandwich",
+                      "link": "https://www.swiggy.com/collections/80439?collection_id=80439&tags=layout_CCS_PureVeg&type=rcv2",
+                      "text": "Pure Veg",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurants curated for sandwich",
+                      "altText": "restaurants curated for veg",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=83667&tags=layout_CCS_Sandwiches",
+                    "entityId": "swiggy://collectionV2?collection_id=80439&tags=layout_CCS_PureVeg",
                     "frequencyCapping": {
                       
                     }
                   },
                   {
-                    "id": "749879",
-                    "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Chole_Bature.png",
+                    "id": "749774",
+                    "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/80383?collection_id=80383&tags=layout_CCS_CholeBhature&type=rcv2",
-                      "text": "Chole Bhature",
+                      "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                      "text": "Noodles",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurant curated for chhole bhatoore",
+                      "altText": "restaurant curated for noodles",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=80383&tags=layout_CCS_CholeBhature",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750562",
-                    "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80427?collection_id=80427&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
-                      "text": "Vada",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for vada",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80427",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "749806",
-                    "imageId": "v1674029844/PC_Creative%20refresh/3D_bau/banners_new/Appam.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80353?collection_id=80353&tags=layout_BAU_Contextual%2Cappam%2Clayout_ux4&type=rcv2",
-                      "text": "Appam",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for appam",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80353",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750237",
-                    "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Poori.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80378?collection_id=80378&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-                      "text": "Poori",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for poori",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80378",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750203",
-                    "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
-                      "text": "Paratha",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for paratha",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80476",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750640",
-                    "imageId": "v1674029847/PC_Creative%20refresh/3D_bau/banners_new/Kachori.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80450?collection_id=80450&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
-                      "text": "Kachori",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for kachori",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80450",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750231",
-                    "imageId": "v1674029857/PC_Creative%20refresh/3D_bau/banners_new/Poha.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80374?collection_id=80374&tags=layout_CCS_Poha&type=rcv2",
-                      "text": "Poha",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for poha",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80374&tags=layout_CCS_Poha",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "749789",
-                    "imageId": "v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Omelette.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80468?collection_id=80468&tags=layout_BAU_Contextual%2Comelette&type=rcv2",
-                      "text": "Omelette",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for omelette",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80468",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750123",
-                    "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Dhokla.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80423?collection_id=80423&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
-                      "text": "Dhokla",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for dhokla",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80423",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "749874",
-                    "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
-                      "text": "Cakes",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for cakes",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750217",
-                    "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pav_Bhaji.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80364?collection_id=80364&tags=layout_PavBhaji_Contextual&type=rcv2",
-                      "text": "Pav Bhaji",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for pav bhaji",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80364&tags=layout_PavBhaji_Contextual",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750544",
-                    "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Upma.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80412?collection_id=80412&tags=layout_BAU_Contextual%2Cupma&type=rcv2",
-                      "text": "Upma",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for upma",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80412",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "749864",
-                    "imageId": "v1674029843/PC_Creative%20refresh/3D_bau/banners_new/Bonda.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80365?collection_id=80365&tags=layout_BAU_Contextual%2Cbonda%2Clayout_ux4&type=rcv2",
-                      "text": "Bonda",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for bonda",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80365",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750233",
-                    "imageId": "v1674029847/PC_Creative%20refresh/3D_bau/banners_new/Pongal.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80376?collection_id=80376&tags=layout_BAU_Contextual%2Cpongal&type=rcv2",
-                      "text": "Pongal",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for pongal",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80376",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750599",
-                    "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Coffee.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83908?collection_id=83908&tags=layout_CCS_Coffee&type=rcv2",
-                      "text": "Coffee",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for coffee",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83908&tags=layout_CCS_Coffee",
-                    "frequencyCapping": {
-                      
-                    }
-                  },
-                  {
-                    "id": "750605",
-                    "imageId": "rng/md/carousel/production/cbb85a3c1684891105294d11f8359996",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80494?collection_id=80494&tags=layout_CCS_Tea&type=rcv2",
-                      "text": "Tea",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for tea",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80494&tags=layout_CCS_Tea",
+                    "entityId": "80464",
                     "frequencyCapping": {
                       
                     }
@@ -799,6 +762,42 @@ const master = [
                       "altTextCta": "open"
                     },
                     "entityId": "80456",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750207",
+                    "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
+                      "text": "Pasta",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for pasta",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "80480",
+                    "frequencyCapping": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750562",
+                    "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80427?collection_id=80427&tags=layout_BAU_Contextual%2Cvada&type=rcv2",
+                      "text": "Vada",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for vada",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "80427",
                     "frequencyCapping": {
                       
                     }
@@ -840,7 +839,7 @@ const master = [
             },
             "layout": {
               "rows": 1,
-              "columns": 9,
+              "columns": 20,
               "horizontalScrollEnabled": true,
               "itemSpacing": 32,
               "widgetPadding": {
@@ -883,10 +882,94 @@ const master = [
                 "restaurants": [
                   {
                     "info": {
-                      "id": "30246",
+                      "id": "38260",
+                      "name": "Wow! Momo",
+                      "cloudinaryImageId": "5a148e63e9c54942e37627da1aa156be",
+                      "locality": "Seawoods",
+                      "areaName": "Seawoods",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "Tibetan",
+                        "Healthy Food",
+                        "Asian",
+                        "Chinese",
+                        "Snacks",
+                        "Continental",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "1776",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "5K+",
+                      "sla": {
+                        "deliveryTime": 47,
+                        "lastMileTravel": 10.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "45-50 mins",
+                        "lastMileTravelString": "10.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 03:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/wow-momo-seawoods-mumbai-38260",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "30245",
                       "name": "McDonald's",
                       "cloudinaryImageId": "03501c33ecb3a3105124441e541e6fe4",
-                      "locality": "Little World",
+                      "locality": "Pacific Heights",
                       "areaName": "Kharghar",
                       "costForTwo": "₹400 for two",
                       "cuisines": [
@@ -900,15 +983,15 @@ const master = [
                       "avgRatingString": "4.5",
                       "totalRatingsString": "10K+",
                       "sla": {
-                        "deliveryTime": 28,
-                        "lastMileTravel": 3,
+                        "deliveryTime": 21,
+                        "lastMileTravel": 1.6,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-11 02:45:00",
+                        "nextCloseTime": "2024-02-15 23:45:00",
                         "opened": true
                       },
                       "badges": {
@@ -945,6 +1028,1019 @@ const master = [
                         }
                       },
                       "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹199"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/mcdonalds-pacific-heights-kharghar-mumbai-30245",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "415194",
+                      "name": "Burger King",
+                      "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+                      "locality": "Kharghar -ltile world",
+                      "areaName": "Little world Mall",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "American"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "166",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 03:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO ₹120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/burger-king-kharghar-ltile-world-little-world-mall-mumbai-415194",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "425510",
+                      "name": "KFC",
+                      "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+                      "locality": "Kharghar",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Biryani",
+                        "American",
+                        "Snacks",
+                        "Fast Food"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "547",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 22,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 04:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹179"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/kfc-kharghar-mumbai-425510",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "28793",
+                      "name": "Domino's Pizza",
+                      "cloudinaryImageId": "sj4p3vftyl9ffruimuzt",
+                      "locality": "Plot No. 18, Sector -20",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Italian",
+                        "Pastas",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "2456",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25 mins",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 02:59:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/dominos-pizza-plot-no-18-sector-20-kharghar-mumbai-28793",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "293959",
+                      "name": "Pranaam Fine Dine",
+                      "cloudinaryImageId": "duv6haqx6sk0zrcpdbab",
+                      "locality": "Sector 12",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹450 for two",
+                      "cuisines": [
+                        "Mughlai",
+                        "North Indian",
+                        "Tandoor"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "160582",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 33,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 15:30:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "40% OFF",
+                        "subHeader": "UPTO ₹80"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/pranaam-fine-dine-sector-12-kharghar-mumbai-293959",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "28911",
+                      "name": "Cheelizza - India ka Pizza",
+                      "cloudinaryImageId": "f58a1b772e5eeea45ff8ead3890703ed",
+                      "locality": "Kharghar",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹500 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Italian",
+                        "Fast Food"
+                      ],
+                      "avgRating": 4.3,
+                      "veg": true,
+                      "parentId": "375077",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 31,
+                        "lastMileTravel": 2.1,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "2.1 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 03:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                            "description": "pureveg"
+                          }
+                        ],
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "pureveg",
+                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO ₹120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/cheelizza-india-ka-pizza-kharghar-mumbai-28911",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "44161",
+                      "name": "Charcoal Eats - Biryani & Beyond",
+                      "cloudinaryImageId": "d4ecb6c79e17e6888221ed100ab3f81a",
+                      "locality": "Kharghar",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹499 for two",
+                      "cuisines": [
+                        "Biryani",
+                        "Kebabs",
+                        "North Indian",
+                        "Mughlai"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "5338",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 1.1,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.1 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 02:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "subHeader": "UPTO ₹100"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/charcoal-eats-biryani-and-beyond-kharghar-mumbai-44161",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "351103",
+                      "name": "Grameen Kulfi",
+                      "cloudinaryImageId": "rmi7aycp29azclvfq1yd",
+                      "locality": "Sector 19",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹120 for two",
+                      "cuisines": [
+                        "Ice Cream",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.7,
+                      "veg": true,
+                      "parentId": "12175",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 22,
+                        "lastMileTravel": 2.4,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "2.4 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO ₹120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/grameen-kulfi-sector-19-kharghar-mumbai-351103",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "395327",
+                      "name": "McDonald's Gourmet Burger Collection",
+                      "cloudinaryImageId": "jxkhl0dt6p7rpdjhg5nu",
+                      "locality": "Pacific Heights",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹600 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Beverages",
+                        "Cafe",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "10761",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "100+",
+                      "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 23:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+                        
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/mcdonalds-gourmet-burger-collection-pacific-heights-kharghar-mumbai-395327",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "343246",
+                      "name": "Starbucks Coffee",
+                      "cloudinaryImageId": "2418209798927d733a50f5d2ebcc2aee",
+                      "locality": "Sector 15",
+                      "areaName": "Cbd Belapur",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Beverages",
+                        "Cafe",
+                        "Snacks",
+                        "Desserts",
+                        "Bakery",
+                        "Ice Cream"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "195515",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 36,
+                        "lastMileTravel": 7.7,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "35-40 mins",
+                        "lastMileTravelString": "7.7 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 23:59:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "subHeader": "UPTO ₹100"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/starbucks-coffee-sector-15-cbd-belapur-mumbai-343246",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "30885",
+                      "name": "Natural Ice Cream",
+                      "cloudinaryImageId": "jkjme12t0aa3foem14pi",
+                      "locality": "Near Shilp Chowk",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹150 for two",
+                      "cuisines": [
+                        "Ice Cream",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.7,
+                      "veg": true,
+                      "parentId": "2093",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 18,
+                        "lastMileTravel": 1.8,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "1.8 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 00:55:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "40% OFF",
+                        "subHeader": "UPTO ₹80"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/natural-ice-cream-near-shilp-chowk-kharghar-mumbai-30885",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "66504",
+                      "name": "Singh Saab",
+                      "cloudinaryImageId": "nfyqaddsogzrti0hmrk4",
+                      "locality": "Kharghar",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹800 for two",
+                      "cuisines": [
+                        "North Indian",
+                        "Chinese",
+                        "Indian",
+                        "Biryani",
+                        "Mughlai",
+                        "Kebabs"
+                      ],
+                      "avgRating": 4.1,
+                      "parentId": "2041",
+                      "avgRatingString": "4.1",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 34,
+                        "lastMileTravel": 1.4,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "1.4 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 15:30:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "subHeader": "UPTO ₹100"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/singh-saab-kharghar-mumbai-66504",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "179524",
+                      "name": "Sweet Bengal",
+                      "cloudinaryImageId": "uzpdcbci6qyyqmxmqisq",
+                      "locality": "Kharghar",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹150 for two",
+                      "cuisines": [
+                        "Desserts"
+                      ],
+                      "avgRating": 4.6,
+                      "veg": true,
+                      "parentId": "1250",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 22:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
                         "header": "20% OFF",
                         "subHeader": "UPTO ₹50"
                       },
@@ -972,29 +2068,270 @@ const master = [
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/mcdonalds-little-world-kharghar-mumbai-30246",
+                      "link": "https://www.swiggy.com/restaurants/sweet-bengal-kharghar-mumbai-179524",
                       "type": "WEBLINK"
                     }
                   },
                   {
                     "info": {
-                      "id": "434954",
-                      "name": "Samosa Singh",
-                      "cloudinaryImageId": "77baefd8a5e319c828b4d7dff7260644",
-                      "locality": "Raj Palace",
+                      "id": "282466",
+                      "name": "Nothing But Chicken",
+                      "cloudinaryImageId": "mro3wbbvox5katmzoqag",
+                      "locality": "Sai Moksh Chs",
                       "areaName": "Kharghar",
-                      "costForTwo": "₹150 for two",
+                      "costForTwo": "₹400 for two",
                       "cuisines": [
-                        "North Indian",
-                        "Indian",
-                        "Snacks",
-                        "Street Food"
+                        "Salads",
+                        "Biryani",
+                        "Kebabs",
+                        "Fast Food",
+                        "Healthy Food"
                       ],
-                      "avgRating": 4.1,
-                      "veg": true,
-                      "parentId": "5639",
-                      "avgRatingString": "4.1",
+                      "avgRating": 4.3,
+                      "parentId": "668",
+                      "avgRatingString": "4.3",
                       "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO ₹50"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/nothing-but-chicken-sai-moksh-chs-kharghar-mumbai-282466",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "366379",
+                      "name": "Havmor Havfunn Ice Cream",
+                      "cloudinaryImageId": "49845b494b1e637209b7bd1c7ca184ad",
+                      "locality": "Havmor Havfun",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹200 for two",
+                      "cuisines": [
+                        "Ice Cream",
+                        "Ice Cream Cakes",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.6,
+                      "veg": true,
+                      "parentId": "94570",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "500+",
+                      "sla": {
+                        "deliveryTime": 18,
+                        "lastMileTravel": 1.1,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "1.1 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 04:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+                        
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/havmor-havfunn-ice-cream-havmor-havfun-kharghar-mumbai-366379",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "26741",
+                      "name": "Kolkata Rolls",
+                      "cloudinaryImageId": "kraul2spjpcjngo11de7",
+                      "locality": "Hiranandani Complex",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Fast Food",
+                        "Biryani",
+                        "Snacks",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "2493",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 1.3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.3 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/kolkata-rolls-hiranandani-complex-kharghar-mumbai-26741",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "341216",
+                      "name": "New York Waffles & Dinges",
+                      "cloudinaryImageId": "gpfzh5i9ql8pymluoxsv",
+                      "locality": "Kharghar",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Waffle",
+                        "Beverages",
+                        "Desserts",
+                        "Bakery"
+                      ],
+                      "avgRating": 3.9,
+                      "veg": true,
+                      "parentId": "148410",
+                      "avgRatingString": "3.9",
+                      "totalRatingsString": "500+",
                       "sla": {
                         "deliveryTime": 36,
                         "lastMileTravel": 3,
@@ -1004,7 +2341,7 @@ const master = [
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-10 09:00:00",
+                        "nextCloseTime": "2024-02-15 23:59:00",
                         "opened": true
                       },
                       "badges": {
@@ -1065,220 +2402,37 @@ const master = [
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/samosa-singh-raj-palace-kharghar-mumbai-434954",
+                      "link": "https://www.swiggy.com/restaurants/new-york-waffles-and-dinges-kharghar-mumbai-341216",
                       "type": "WEBLINK"
                     }
                   },
                   {
                     "info": {
-                      "id": "392643",
-                      "name": "Chaayos Chai+Snacks=Relax",
-                      "cloudinaryImageId": "cace805a6ba74137571d0f7ac92302b1",
-                      "locality": "Little World Mall",
+                      "id": "451678",
+                      "name": "NOTO - Ice Creams & Desserts",
+                      "cloudinaryImageId": "81ac87e5c89c16adc867be38ce5a1ba3",
+                      "locality": "Sec - 4",
                       "areaName": "Kharghar",
                       "costForTwo": "₹250 for two",
                       "cuisines": [
-                        "Bakery",
-                        "Beverages",
-                        "Chaat",
-                        "Desserts",
-                        "Home Food",
-                        "Italian",
-                        "Maharashtrian",
-                        "Snacks",
-                        "Street Food",
-                        "Sweets"
+                        "Ice Cream",
+                        "Desserts"
                       ],
-                      "avgRating": 4.5,
-                      "parentId": "281782",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "1K+",
+                      "avgRating": 4.4,
+                      "veg": true,
+                      "parentId": "468478",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "500+",
                       "sla": {
-                        "deliveryTime": 28,
-                        "lastMileTravel": 3,
+                        "deliveryTime": 22,
+                        "lastMileTravel": 2.9,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "2.9 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-10 23:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "60% OFF",
-                        "subHeader": "UPTO ₹120"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/chaayos-chai-snacks-relax-little-world-mall-kharghar-mumbai-392643",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "415194",
-                      "name": "Burger King",
-                      "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
-                      "locality": "Kharghar -ltile world",
-                      "areaName": "Little world Mall",
-                      "costForTwo": "₹350 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "American"
-                      ],
-                      "avgRating": 4.3,
-                      "parentId": "166",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "10K+",
-                      "sla": {
-                        "deliveryTime": 30,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-11 03:45:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "60% OFF",
-                        "subHeader": "UPTO ₹120"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/burger-king-kharghar-ltile-world-little-world-mall-mumbai-415194",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "443508",
-                      "name": "EatFit",
-                      "cloudinaryImageId": "543307dc74eeb9dc5e0a58c81fe54996",
-                      "locality": "Aum Sai",
-                      "areaName": "Kharghar",
-                      "costForTwo": "₹250 for two",
-                      "cuisines": [
-                        "Chinese",
-                        "Healthy Food",
-                        "Tandoor",
-                        "Pizzas",
-                        "North Indian",
-                        "Thalis",
-                        "Biryani"
-                      ],
-                      "avgRating": 4.2,
-                      "parentId": "76139",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "1K+",
-                      "sla": {
-                        "deliveryTime": 29,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-10 23:45:00",
+                        "nextCloseTime": "2024-02-16 03:30:00",
                         "opened": true
                       },
                       "badges": {
@@ -1315,9 +2469,8 @@ const master = [
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "₹125 OFF",
-                        "subHeader": "ABOVE ₹249",
-                        "discountTag": "FLAT DEAL"
+                        "header": "60% OFF",
+                        "subHeader": "UPTO ₹120"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1343,234 +2496,37 @@ const master = [
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/eatfit-aum-sai-kharghar-mumbai-443508",
+                      "link": "https://www.swiggy.com/restaurants/noto-ice-creams-and-desserts-sec-4-kharghar-mumbai-451678",
                       "type": "WEBLINK"
                     }
                   },
                   {
                     "info": {
-                      "id": "26803",
-                      "name": "Cafe Coffee Day",
-                      "cloudinaryImageId": "b70c7d23d197251b7b315b7e4d8173ae",
-                      "locality": "Sector 2 Station Road",
+                      "id": "33213",
+                      "name": "The J",
+                      "cloudinaryImageId": "wr4sqcp09etzfma2yb5s",
+                      "locality": "Kharghar",
                       "areaName": "Kharghar",
-                      "costForTwo": "₹400 for two",
+                      "costForTwo": "₹300 for two",
                       "cuisines": [
-                        "Beverages",
-                        "Cafe",
+                        "American",
                         "Snacks",
-                        "Desserts",
-                        "Burgers",
-                        "Ice Cream",
-                        "Bakery",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.2,
-                      "parentId": "1",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "1K+",
-                      "sla": {
-                        "deliveryTime": 36,
-                        "lastMileTravel": 3.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "35-40 mins",
-                        "lastMileTravelString": "3.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-11 02:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "subHeader": "UPTO ₹100"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/cafe-coffee-day-sector-2-station-road-kharghar-mumbai-26803",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "343246",
-                      "name": "Starbucks Coffee",
-                      "cloudinaryImageId": "c4d3a93a80333184ee41048b4fda3a34",
-                      "locality": "Sector 15",
-                      "areaName": "Cbd Belapur",
-                      "costForTwo": "₹400 for two",
-                      "cuisines": [
-                        "Beverages",
-                        "Cafe",
-                        "Snacks",
-                        "Desserts",
-                        "Bakery",
-                        "Ice Cream"
-                      ],
-                      "avgRating": 4.5,
-                      "parentId": "195515",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "1K+",
-                      "sla": {
-                        "deliveryTime": 38,
-                        "lastMileTravel": 7.7,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "35-40 mins",
-                        "lastMileTravelString": "7.7 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-10 23:59:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹499"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/starbucks-coffee-sector-15-cbd-belapur-mumbai-343246",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "395247",
-                      "name": "McDonald's Gourmet Burger Collection",
-                      "cloudinaryImageId": "fnfeg8qudpgshqzwxq5k",
-                      "locality": "Sector 15",
-                      "areaName": "CBD Belapur",
-                      "costForTwo": "₹600 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "Beverages",
-                        "Cafe",
                         "Desserts"
                       ],
-                      "avgRating": 4.5,
-                      "parentId": "10761",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "100+",
+                      "avgRating": 4.4,
+                      "parentId": "2022",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "5K+",
                       "sla": {
-                        "deliveryTime": 40,
-                        "lastMileTravel": 7.7,
+                        "deliveryTime": 27,
+                        "lastMileTravel": 2.8,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "35-40 mins",
-                        "lastMileTravelString": "7.7 km",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "2.8 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-11 00:45:00",
+                        "nextCloseTime": "2024-02-16 00:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -1618,84 +2574,7 @@ const master = [
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/mcdonalds-gourmet-burger-collection-sector-15-cbd-belapur-mumbai-395247",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "23946",
-                      "name": "Pizza Hut",
-                      "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
-                      "locality": "Sector 1",
-                      "areaName": "Nerul",
-                      "costForTwo": "₹350 for two",
-                      "cuisines": [
-                        "Pizzas"
-                      ],
-                      "avgRating": 4.1,
-                      "parentId": "721",
-                      "avgRatingString": "4.1",
-                      "totalRatingsString": "5K+",
-                      "sla": {
-                        "deliveryTime": 46,
-                        "lastMileTravel": 9,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "45-50 mins",
-                        "lastMileTravelString": "9.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-17 00:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹179"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/pizza-hut-sector-1-nerul-mumbai-23946",
+                      "link": "https://www.swiggy.com/restaurants/the-j-kharghar-mumbai-33213",
                       "type": "WEBLINK"
                     }
                   }
@@ -1758,7 +2637,7 @@ const master = [
                 "title": "Cost: High to Low"
               }
             ],
-            "restaurantCount": 439,
+            "restaurantCount": 1267,
             "facetList": [
               {
                 "label": "Delivery Time",
@@ -1782,6 +2661,14 @@ const master = [
                 "id": "catalog_cuisines",
                 "selection": "SELECT_TYPE_MULTISELECT",
                 "facetInfo": [
+                  {
+                    "label": "Afghani",
+                    "id": "query_afghani",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
                   {
                     "label": "American",
                     "id": "query_american",
@@ -1855,6 +2742,14 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Bihari",
+                    "id": "query_bihari",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Biryani",
                     "id": "query_biryani",
                     "analytics": {
@@ -1889,6 +2784,14 @@ const master = [
                   {
                     "label": "Chaat",
                     "id": "query_chaat",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Chettinad",
+                    "id": "query_chettinad",
                     "analytics": {
                       
                     },
@@ -1943,6 +2846,30 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Goan",
+                    "id": "query_goan",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Grill",
+                    "id": "query_grill",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Gujarati",
+                    "id": "query_gujarati",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Healthy Food",
                     "id": "query_healthy_food",
                     "analytics": {
@@ -1953,6 +2880,14 @@ const master = [
                   {
                     "label": "Home Food",
                     "id": "query_home_food",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Hyderabadi",
+                    "id": "query_hyderabadi",
                     "analytics": {
                       
                     },
@@ -1983,6 +2918,14 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Indonesian",
+                    "id": "query_indonesian",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Italian",
                     "id": "query_italian",
                     "analytics": {
@@ -2007,8 +2950,24 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Japanese",
+                    "id": "query_japanese",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Juices",
                     "id": "query_juices",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Kashmiri",
+                    "id": "query_kashmiri",
                     "analytics": {
                       
                     },
@@ -2033,6 +2992,22 @@ const master = [
                   {
                     "label": "Keto",
                     "id": "query_keto",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Konkan",
+                    "id": "query_konkan",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Korean",
+                    "id": "query_korean",
                     "analytics": {
                       
                     },
@@ -2079,6 +3054,14 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Meat",
+                    "id": "query_meat",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Mediterranean",
                     "id": "query_mediterranean",
                     "analytics": {
@@ -2095,8 +3078,24 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Middle Eastern",
+                    "id": "query_middle_eastern",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Momos",
                     "id": "query_momos",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Mongolian",
+                    "id": "query_mongolian",
                     "analytics": {
                       
                     },
@@ -2111,8 +3110,16 @@ const master = [
                     "openFilter": true
                   },
                   {
-                    "label": "North Eastern",
-                    "id": "query_north_eastern",
+                    "label": "Navratri Special",
+                    "id": "query_navratri_special",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Nepalese",
+                    "id": "query_nepalese",
                     "analytics": {
                       
                     },
@@ -2137,6 +3144,30 @@ const master = [
                   {
                     "label": "Oriya",
                     "id": "query_oriya",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Other fresh meat",
+                    "id": "query_other_fresh_meat",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Paan",
+                    "id": "query_paan",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Pakistani",
+                    "id": "query_pakistani",
                     "analytics": {
                       
                     },
@@ -2177,6 +3208,22 @@ const master = [
                   {
                     "label": "Rajasthani",
                     "id": "query_rajasthani",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Rolls",
+                    "id": "query_rolls",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Rolls & Wraps",
+                    "id": "query_rolls_&_wraps",
                     "analytics": {
                       
                     },
@@ -2239,6 +3286,14 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Sushi",
+                    "id": "query_sushi",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Sweets",
                     "id": "query_sweets",
                     "analytics": {
@@ -2249,6 +3304,14 @@ const master = [
                   {
                     "label": "Tandoor",
                     "id": "query_tandoor",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Tex-Mex",
+                    "id": "query_tex-mex",
                     "analytics": {
                       
                     },
@@ -2287,8 +3350,24 @@ const master = [
                     "openFilter": true
                   },
                   {
+                    "label": "Vietnamese",
+                    "id": "query_vietnamese",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Waffle",
                     "id": "query_waffle",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "indian",
+                    "id": "query_indian",
                     "analytics": {
                       
                     },
@@ -2438,34 +3517,528 @@ const master = [
                 "restaurants": [
                   {
                     "info": {
-                      "id": "264357",
-                      "name": "Kairali Hotel Kharghar, the taste of Kerala",
-                      "cloudinaryImageId": "64f50f687ba981dd49d111f538ed5e76",
-                      "locality": "Sector-20",
-                      "areaName": "Kharghar",
-                      "costForTwo": "₹500 for two",
+                      "id": "502240",
+                      "name": "Wow! Momo",
+                      "cloudinaryImageId": "5a148e63e9c54942e37627da1aa156be",
+                      "locality": "Sector No 15",
+                      "areaName": "Belapur",
+                      "costForTwo": "₹300 for two",
                       "cuisines": [
-                        "South Indian",
+                        "Tibetan",
+                        "Healthy Food",
+                        "Asian",
                         "Chinese",
-                        "Biryani",
-                        "North Indian",
-                        "Kerala",
-                        "Indian"
+                        "Snacks",
+                        "Continental",
+                        "Desserts",
+                        "Beverages"
                       ],
                       "avgRating": 4.3,
-                      "parentId": "329609",
+                      "parentId": "1776",
                       "avgRatingString": "4.3",
-                      "totalRatingsString": "1K+",
+                      "totalRatingsString": "500+",
                       "sla": {
-                        "deliveryTime": 28,
-                        "lastMileTravel": 1.5,
+                        "deliveryTime": 45,
+                        "lastMileTravel": 7.4,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "1.5 km",
+                        "slaString": "40-45 mins",
+                        "lastMileTravelString": "7.4 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-10 22:55:00",
+                        "nextCloseTime": "2024-02-16 03:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/wow-momo-sector-no-15-belapur-mumbai-502240",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "info": {
+                      "id": "770862",
+                      "name": "Dabba Garam (Homestyle,Combo, Thali & More)",
+                      "cloudinaryImageId": "8bbf91df3c4bb6c43ebdece3f3d3398a",
+                      "locality": "Sector 12",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Indian",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.4,
+                      "veg": true,
+                      "parentId": "67608",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "500+",
+                      "sla": {
+                        "deliveryTime": 24,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 15:20:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO ₹50"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "isNewlyOnboarded": true,
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/dabba-garam-homestyle-combo-thali-and-more-sector-12-kharghar-mumbai-770862",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "info": {
+                      "id": "30245",
+                      "name": "McDonald's",
+                      "cloudinaryImageId": "03501c33ecb3a3105124441e541e6fe4",
+                      "locality": "Pacific Heights",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Beverages",
+                        "Cafe",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "630",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 21,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-15 23:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹199"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/mcdonalds-pacific-heights-kharghar-mumbai-30245",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "info": {
+                      "id": "425510",
+                      "name": "KFC",
+                      "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+                      "locality": "Kharghar",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Biryani",
+                        "American",
+                        "Snacks",
+                        "Fast Food"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "547",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "1K+",
+                      "sla": {
+                        "deliveryTime": 22,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 04:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹179"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/kfc-kharghar-mumbai-425510",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "info": {
+                      "id": "415194",
+                      "name": "Burger King",
+                      "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+                      "locality": "Kharghar -ltile world",
+                      "areaName": "Little world Mall",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "American"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "166",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 03:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO ₹120"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      }
+                    },
+                    "analytics": {
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/restaurants/burger-king-kharghar-ltile-world-little-world-mall-mumbai-415194",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "info": {
+                      "id": "28793",
+                      "name": "Domino's Pizza",
+                      "cloudinaryImageId": "sj4p3vftyl9ffruimuzt",
+                      "locality": "Plot No. 18, Sector -20",
+                      "areaName": "Kharghar",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Italian",
+                        "Pastas",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "2456",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "10K+",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25 mins",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-02-16 02:59:00",
                         "opened": true
                       },
                       "badges": {
@@ -2525,10 +4098,10 @@ const master = [
                       }
                     },
                     "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/kairali-hotel-kharghar-the-taste-of-kerala-sector-20-kharghar-mumbai-264357",
+                      "link": "https://www.swiggy.com/restaurants/dominos-pizza-plot-no-18-sector-20-kharghar-mumbai-28793",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -2536,642 +4109,69 @@ const master = [
                   },
                   {
                     "info": {
-                      "id": "467133",
-                      "name": "Udupi Shri Krishna (Pure Veg)",
-                      "cloudinaryImageId": "qo6c8qgvtth6dgiiobdm",
-                      "locality": "Hari Om Haritage Chs",
-                      "areaName": "Kharghar",
-                      "costForTwo": "₹300 for two",
-                      "cuisines": [
-                        "Chinese",
-                        "Indian",
-                        "Oriental",
-                        "South Indian",
-                        "Tandoor",
-                        "Salads"
-                      ],
-                      "avgRating": 4.3,
-                      "veg": true,
-                      "parentId": "219049",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "500+",
-                      "sla": {
-                        "deliveryTime": 26,
-                        "lastMileTravel": 1.1,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "1.1 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-10 23:30:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "aggregatedDiscountInfoV2": {
-                        
-                      },
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-                          
-                        },
-                        "subTitle": {
-                          
-                        },
-                        "message": {
-                          
-                        },
-                        "customIcon": {
-                          
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/udupi-shri-krishna-pure-veg-hari-om-haritage-chs-kharghar-mumbai-467133",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "info": {
-                      "id": "43225",
-                      "name": "Hot Idli",
-                      "cloudinaryImageId": "thtv578wjebflpwepirk",
-                      "locality": "Cosmopolitan Chs",
-                      "areaName": "Nerul",
-                      "costForTwo": "₹350 for two",
-                      "cuisines": [
-                        "South Indian"
-                      ],
-                      "avgRating": 4.6,
-                      "veg": true,
-                      "parentId": "97329",
-                      "avgRatingString": "4.6",
-                      "totalRatingsString": "10K+",
-                      "sla": {
-                        "deliveryTime": 36,
-                        "lastMileTravel": 8,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "35-40 mins",
-                        "lastMileTravelString": "8.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-10 22:15:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
-                          }
-                        ],
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "10% OFF",
-                        "subHeader": "ABOVE ₹500",
-                        "discountTag": "FLAT DEAL"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-                          
-                        },
-                        "subTitle": {
-                          
-                        },
-                        "message": {
-                          
-                        },
-                        "customIcon": {
-                          
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/hot-idli-cosmopolitan-chs-nerul-mumbai-43225",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "info": {
-                      "id": "318311",
-                      "name": "Bhuvika Bhavan",
-                      "cloudinaryImageId": "tmrdopkuumfxftbk3znu",
-                      "locality": "Crystal Plaza",
-                      "areaName": "Kharghar",
-                      "costForTwo": "₹200 for two",
-                      "cuisines": [
-                        "South Indian",
-                        "Snacks",
-                        "North Indian",
-                        "Thalis",
-                        "Fast Food",
-                        "Healthy Food",
-                        "Mangalorean",
-                        "Beverages",
-                        "Desserts"
-                      ],
-                      "avgRating": 4.4,
-                      "veg": true,
-                      "parentId": "45389",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "1K+",
-                      "sla": {
-                        "deliveryTime": 27,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-10 23:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "20% OFF",
-                        "subHeader": "UPTO ₹50"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-                          
-                        },
-                        "subTitle": {
-                          
-                        },
-                        "message": {
-                          
-                        },
-                        "customIcon": {
-                          
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/bhuvika-bhavan-crystal-plaza-kharghar-mumbai-318311",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "info": {
-                      "id": "34249",
-                      "name": "Udupi Xpress",
-                      "cloudinaryImageId": "nigevzpo8kwhenytu3hb",
-                      "locality": "Kharghar",
-                      "areaName": "Kharghar",
-                      "costForTwo": "₹149 for two",
-                      "cuisines": [
-                        "South Indian",
-                        "Snacks",
-                        "North Indian",
-                        "Thalis",
-                        "Fast Food",
-                        "Healthy Food",
-                        "Mangalorean",
-                        "Beverages",
-                        "Desserts"
-                      ],
-                      "avgRating": 4.4,
-                      "veg": true,
-                      "parentId": "9631",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "10K+",
-                      "sla": {
-                        "deliveryTime": 28,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-10 23:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "10% OFF",
-                        "subHeader": "UPTO ₹40"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-                          
-                        },
-                        "subTitle": {
-                          
-                        },
-                        "message": {
-                          
-                        },
-                        "customIcon": {
-                          
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/udupi-xpress-kharghar-mumbai-34249",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "info": {
-                      "id": "46508",
-                      "name": "Hotel Sai Pooja",
-                      "cloudinaryImageId": "tb4vvi9ruztdgwqhlnip",
-                      "locality": "Crystal Plaza",
-                      "areaName": "Kharghar",
-                      "costForTwo": "₹300 for two",
-                      "cuisines": [
-                        "South Indian",
-                        "Indian",
-                        "Chinese"
-                      ],
-                      "avgRating": 4.4,
-                      "veg": true,
-                      "parentId": "101813",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "10K+",
-                      "sla": {
-                        "deliveryTime": 29,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-02-10 23:45:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "20% OFF",
-                        "subHeader": "UPTO ₹50"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-                          
-                        },
-                        "subTitle": {
-                          
-                        },
-                        "message": {
-                          
-                        },
-                        "customIcon": {
-                          
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      }
-                    },
-                    "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/hotel-sai-pooja-crystal-plaza-kharghar-mumbai-46508",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "info": {
-                      "id": "58960",
-                      "name": "Radha Krishna",
-                      "cloudinaryImageId": "httyldcqafqzhdstd8i0",
+                      "id": "390100",
+                      "name": "NH1 Bowls - Highway To North",
+                      "cloudinaryImageId": "94654fdf308764cd0faf83dba35bcdc3",
                       "locality": "sector 20",
                       "areaName": "Kharghar",
-                      "costForTwo": "₹199 for two",
+                      "costForTwo": "₹250 for two",
                       "cuisines": [
-                        "Sweets"
+                        "North Indian",
+                        "Punjabi",
+                        "Home Food"
                       ],
-                      "avgRating": 4.3,
-                      "veg": true,
-                      "parentId": "2875",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "5K+",
+                      "avgRating": 4.5,
+                      "parentId": "22452",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "500+",
                       "sla": {
-                        "deliveryTime": 24,
-                        "lastMileTravel": 2.1,
+                        "deliveryTime": 28,
+                        "lastMileTravel": 1.5,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "2.1 km",
+                        "slaString": "23-33 mins",
+                        "lastMileTravelString": "1.5 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-10 22:30:00",
+                        "nextCloseTime": "2024-02-16 02:00:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
+                        "textExtendedBadges": [
                           {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
                           }
                         ]
                       },
                       "isOpen": true,
-                      "aggregatedDiscountInfoV2": {
-                        
-                      },
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
                             
                           },
                           "textExtendedBadges": {
-                            
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
                           }
                         }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "EVERY ITEM",
+                        "subHeader": "@ ₹159"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -3208,10 +4208,10 @@ const master = [
                       }
                     },
                     "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/radha-krishna-sector-20-kharghar-mumbai-58960",
+                      "link": "https://www.swiggy.com/restaurants/nh1-bowls-highway-to-north-sector-20-kharghar-mumbai-390100",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -3219,33 +4219,42 @@ const master = [
                   },
                   {
                     "info": {
-                      "id": "827742",
-                      "name": "DiabeSmart - Sugarfree Foods",
-                      "cloudinaryImageId": "9024ea9cde97c4f31d204599f66a6e3d",
-                      "locality": "Kharghar",
+                      "id": "750265",
+                      "name": "Daily Kitchen - Homestyle Meals",
+                      "cloudinaryImageId": "f3712f78feb56ca2f11ba6dcacd54521",
+                      "locality": "sector 20",
                       "areaName": "Kharghar",
-                      "costForTwo": "₹300 for two",
+                      "costForTwo": "₹400 for two",
                       "cuisines": [
-                        "Healthy Food",
+                        "Home Food",
+                        "Indian",
                         "North Indian",
-                        "Continental"
+                        "Thalis"
                       ],
-                      "parentId": "443428",
-                      "avgRatingString": "NEW",
+                      "avgRating": 4.2,
+                      "parentId": "444382",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "50+",
                       "sla": {
                         "deliveryTime": 27,
-                        "lastMileTravel": 2.4,
+                        "lastMileTravel": 1.5,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "2.4 km",
+                        "slaString": "22-32 mins",
+                        "lastMileTravelString": "1.5 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-11 00:00:00",
+                        "nextCloseTime": "2024-02-16 02:00:00",
                         "opened": true
                       },
                       "badges": {
-                        
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
                       },
                       "isOpen": true,
                       "type": "F",
@@ -3258,13 +4267,22 @@ const master = [
                             
                           },
                           "textExtendedBadges": {
-                            
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "subHeader": "UPTO ₹100"
+                        "header": "EVERY ITEM",
+                        "subHeader": "@ ₹139"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -3302,10 +4320,10 @@ const master = [
                       }
                     },
                     "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/diabesmart-sugarfree-foods-kharghar-mumbai-827742",
+                      "link": "https://www.swiggy.com/restaurants/daily-kitchen-homestyle-meals-sector-20-kharghar-mumbai-750265",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -3313,53 +4331,45 @@ const master = [
                   },
                   {
                     "info": {
-                      "id": "28076",
-                      "name": "Anna Dosa Cafe",
-                      "cloudinaryImageId": "xqkzgzkuikoulcc1bhvx",
-                      "locality": "Mahapragya Heights",
+                      "id": "264357",
+                      "name": "Kairali Hotel Kharghar, the taste of Kerala",
+                      "cloudinaryImageId": "64f50f687ba981dd49d111f538ed5e76",
+                      "locality": "Sector-20",
                       "areaName": "Kharghar",
-                      "costForTwo": "₹150 for two",
+                      "costForTwo": "₹500 for two",
                       "cuisines": [
-                        "South Indian"
+                        "South Indian",
+                        "Chinese",
+                        "Biryani",
+                        "North Indian",
+                        "Kerala",
+                        "Indian"
                       ],
-                      "avgRating": 4.5,
-                      "veg": true,
-                      "parentId": "33773",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "10K+",
+                      "avgRating": 4.3,
+                      "parentId": "329609",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "1K+",
                       "sla": {
-                        "deliveryTime": 28,
-                        "lastMileTravel": 2.1,
+                        "deliveryTime": 29,
+                        "lastMileTravel": 1.5,
                         "serviceability": "SERVICEABLE",
                         "slaString": "25-30 mins",
-                        "lastMileTravelString": "2.1 km",
+                        "lastMileTravelString": "1.5 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-02-10 22:45:00",
+                        "nextCloseTime": "2024-02-15 22:56:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
-                          }
-                        ]
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
                             
@@ -3370,9 +4380,8 @@ const master = [
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "₹100 OFF",
-                        "subHeader": "ABOVE ₹999",
-                        "discountTag": "FLAT DEAL"
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -3409,10 +4418,10 @@ const master = [
                       }
                     },
                     "analytics": {
-                      "context": "seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66"
+                      "context": "seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/anna-dosa-cafe-mahapragya-heights-kharghar-mumbai-28076",
+                      "link": "https://www.swiggy.com/restaurants/kairali-hotel-kharghar-the-taste-of-kerala-sector-20-kharghar-mumbai-264357",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -6142,7 +7151,7 @@ const master = [
             "lat": "19.05650",
             "lng": "73.06560",
             "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-15b7e591-f7cc-4661-8f08-6d8c76a94e66\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
+            "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-af083f7c-2d10-44ca-b827-a167ca9e0f50\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
             "id": "meta_data",
             "metaInfo": {
               "pageType": "FOOD_HOME_PAGE",
@@ -6164,10 +7173,11 @@ const master = [
     "cacheExpiryTime": 240,
     "nextFetch": 1
   },
-  "tid": "7a54358c-870e-4e3c-b976-ac8b0c572bef",
-  "sid": "c2w63ae7-9c02-45a4-b15b-c931313f4e66",
+  "tid": "80862cc3-503a-4481-a063-4e5e8095091a",
+  "sid": "c6d6319e-1d78-4384-8cf0-0474ebab33a5",
   "deviceId": "ef26eb81-2606-369e-cf8c-39d2ef525278",
-  "csrfToken": "QaqK3OMOJQRW-_2WdRkXuZRX0_tGvftRofZX1060"
-}]
+  "csrfToken": "KfU5mtDgG1cZ-LiKpInid6_n_deClF_XIqsZyUw0"
+}
+]
 
-export default master;
+export default masterData;

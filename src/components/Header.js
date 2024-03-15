@@ -1,39 +1,41 @@
+import { Link } from "react-router-dom";
+
 const Header = ()=>{
     return(
         <nav className="navbar navbar-expand-sm navbar-secondary bg-warning">
         <div className="container-fluid justify-content-between">
         <ul className="navbar-nav">
-            <li class="nav-item">
-                    <a class="nav-link" href="https://www.swiggy.com/" target="_blank"><img src="https://th.bing.com/th/id/OIP.Cg6A7Zb-9CL-guzmZNy8yAAAAA?w=148&h=159&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="rounded-circle" alt="Swiggy Logo" style={{height:"50px"}} /></a>
+            <li className="nav-item">
+                    <a className="nav-link" href="https://www.swiggy.com/" rel="noreferrer" target="_blank"><img src="https://logos-world.net/wp-content/uploads/2020/11/Swiggy-Emblem.png" className="rounded-circle" alt="Swiggy Logo" style={{height:"50px"}} /></a>
                 </li>
-                <li class="nav-item dropdown pt-2 px-2">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><u>Other</u></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Link</a></li>
-                        <li><a class="dropdown-item" href="#">Another link</a></li>
-                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                <li className="nav-item dropdown pt-2 px-2">
+                    <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown"><u>Other</u></Link>
+                    <ul className="dropdown-menu">
+                        <li><Link className="dropdown-item" to="#">Link</Link></li>
+                        <li><Link className="dropdown-item" to="#">Another link</Link></li>
+                        <li><Link className="dropdown-item" to="#">A third link</Link></li>
                     </ul>
                 </li>
             </ul>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span className="navbar-toggler-icon"></span>
             </button>
           <div className="container collapse navbar-collapse justify-content-end" id="mynavbar">
             <ul className="navbar-nav">
-            <li class="nav-item pt-1">
-                    <a class="nav-link" href="#">Search</a>
+            <li className="nav-item pt-1">
+                    <Link className="nav-link" to="/">Home</Link>
                 </li>
-                <li class="nav-item pt-1">
-                    <a class="nav-link" href="#">Offers</a>
+                <li className="nav-item pt-1">
+                    <Link className="nav-link" to="/about">About</Link>
                 </li>
-                <li class="nav-item pt-1">
-                    <a class="nav-link" href="#">Help</a>
+                <li className="nav-item pt-1">
+                    <Link className="nav-link" to="#">Help</Link>
                 </li>
-                <li class="nav-item pt-1">
-                    <a class="nav-link" href="#">Sign-In</a>
+                <li className="nav-item pt-1">
+                    <Link className="nav-link" to="#">Sign-In</Link>
                 </li>
-                <li class="nav-item pt-1">
-                    <a class="nav-link" href="#">Cart</a>
+                <li className="nav-item pt-1">
+                    <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
             </ul>
           </div>
